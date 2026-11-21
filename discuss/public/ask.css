@@ -1,0 +1,405 @@
+/* =========================================
+   PAGE
+========================================= */
+
+.ask-page {
+
+    min-height: calc(100vh - 70px);
+
+    background: #f7f9fa;
+
+    padding: 45px 20px 60px;
+
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.ask-container {
+
+    width: 100%;
+
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    padding: 35px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.ask-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding-bottom: 25px;
+
+    margin-bottom: 25px;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+.ask-icon {
+
+    width: 48px;
+
+    height: 48px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: #eef6f8;
+
+    color: #1c7194;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+}
+
+
+.ask-heading {
+
+    margin: 0;
+
+    color: #222;
+
+    font-size: 27px;
+
+    font-weight: 600;
+
+}
+
+
+.ask-subtitle {
+
+    margin: 5px 0 0;
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.question-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+/* =========================================
+   LABEL
+========================================= */
+
+.form-group label {
+
+    color: #333;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-bottom: 5px;
+
+}
+
+
+.field-hint {
+
+    color: #888;
+
+    font-size: 12px;
+
+    margin-bottom: 8px;
+
+}
+
+
+/* =========================================
+   INPUT + TEXTAREA
+========================================= */
+
+.question-form input,
+
+.question-form textarea,
+
+.question-form select {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    border: 1px solid #d5dade;
+
+    border-radius: 7px;
+
+    padding: 12px 14px;
+
+    background: #ffffff;
+
+    color: #333;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition: all 0.2s ease;
+
+}
+
+
+.question-form input {
+
+    height: 45px;
+
+}
+
+
+.question-form textarea {
+
+    min-height: 160px;
+
+    resize: vertical;
+
+    line-height: 1.6;
+
+}
+
+
+.question-form input::placeholder,
+
+.question-form textarea::placeholder {
+
+    color: #a0a6aa;
+
+}
+
+
+/* =========================================
+   FOCUS
+========================================= */
+
+.question-form input:focus,
+
+.question-form textarea:focus,
+
+.question-form select:focus {
+
+    border-color: #1c7194;
+
+    box-shadow: 0 0 0 3px rgba(28,113,148,0.10);
+
+}
+
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.category-select {
+
+    width: 100%;
+
+}
+
+
+/* =========================================
+   BUTTON AREA
+========================================= */
+
+.question-button {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 30px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #eeeeee;
+
+}
+
+
+/* =========================================
+   CANCEL
+========================================= */
+
+.cancel-btn {
+
+    padding: 10px 18px;
+
+    border: 1px solid #d5dade;
+
+    border-radius: 6px;
+
+    color: #555 !important;
+
+    background: #ffffff;
+
+    text-decoration: none !important;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+
+}
+
+
+.cancel-btn:hover {
+
+    background: #f5f6f7;
+
+    border-color: #bbb;
+
+}
+
+
+/* =========================================
+   SUBMIT
+========================================= */
+
+.ask-submit-btn {
+
+    padding: 11px 20px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #1c7194;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.ask-submit-btn:hover {
+
+    background: #155b76;
+
+    transform: translateY(-1px);
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width: 768px) {
+
+    .ask-page {
+
+        padding: 25px 15px 40px;
+
+    }
+
+
+    .ask-container {
+
+        padding: 25px 20px;
+
+    }
+
+
+    .ask-heading {
+
+        font-size: 23px;
+
+    }
+
+
+    .ask-subtitle {
+
+        font-size: 13px;
+
+    }
+
+
+    .question-button {
+
+        flex-direction: column-reverse;
+
+        align-items: stretch;
+
+    }
+
+
+    .cancel-btn,
+
+    .ask-submit-btn {
+
+        text-align: center;
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+    }
+
+}

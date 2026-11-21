@@ -1,0 +1,240 @@
+
+    /* PAGE */
+
+    .questions-page {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+
+    /* HEADER */
+
+    .questions-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .questions-header .heading {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        color: #222;
+    }
+
+
+    /* LATEST BUTTON */
+
+    .latest-btn {
+        background: #1c7194;
+        color: white !important;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+    .latest-btn:hover {
+        background: #155b76;
+        text-decoration: none;
+    }
+
+
+    /* QUESTION CARD */
+
+    .question-card {
+        background: #ffffff;
+        border: 1px solid #e2e5e8;
+        border-radius: 8px;
+        padding: 18px 20px;
+        margin-bottom: 12px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        transition: all 0.2s ease;
+    }
+
+
+    .question-card:hover {
+        border-color: #1c7194;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        transform: translateY(-1px);
+    }
+
+
+    /* QUESTION CONTENT */
+
+    .question-content {
+        flex: 1;
+        min-width: 0;
+    }
+
+
+    .question-title {
+        color: #1c7194 !important;
+        text-decoration: none !important;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 1.4;
+        display: block;
+
+        transition: 0.2s;
+    }
+
+
+    .question-title:hover {
+        color: #155b76 !important;
+    }
+
+
+    /* QUESTION META */
+
+    .question-meta {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+
+        color: #8a9299;
+        font-size: 13px;
+    }
+
+
+    /* DELETE */
+
+    .question-actions {
+        margin-left: 20px;
+    }
+
+    .delete-btn {
+        color: #d9534f !important;
+        text-decoration: none !important;
+
+        border: 1px solid #f0b8b6;
+        padding: 7px 12px;
+        border-radius: 5px;
+
+        font-size: 13px;
+
+        transition: 0.2s;
+    }
+
+
+    .delete-btn:hover {
+        background: #d9534f;
+        color: white !important;
+    }
+
+
+    /* CATEGORY CARD */
+
+    .category-card {
+        background: #ffffff;
+        border: 1px solid #e2e5e8;
+        border-radius: 8px;
+        overflow: hidden;
+
+        position: sticky;
+        top: 20px;
+    }
+
+
+    .category-header {
+        background: #f7f9fa;
+        padding: 18px 20px;
+        border-bottom: 1px solid #e2e5e8;
+    }
+
+
+    .category-header h2 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+        color: #333;
+    }
+
+
+    .category-body {
+        padding: 15px;
+    }
+
+
+    /* EMPTY STATE */
+
+    .empty-state {
+        text-align: center;
+        background: #ffffff;
+        border: 1px solid #e2e5e8;
+        border-radius: 8px;
+
+        padding: 50px 20px;
+    }
+
+
+    .empty-icon {
+        width: 50px;
+        height: 50px;
+
+        margin: 0 auto 15px;
+
+        border-radius: 50%;
+
+        background: #eef5f8;
+        color: #1c7194;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    .empty-state h3 {
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+
+    .empty-state p {
+        margin: 0;
+        color: #888;
+    }
+
+
+    /* MOBILE */
+
+    @media(max-width: 768px){
+
+        .questions-header {
+            align-items: flex-start;
+            gap: 15px;
+            flex-direction: column;
+        }
+
+        .question-card {
+            padding: 15px;
+        }
+
+        .question-title {
+            font-size: 17px;
+        }
+
+        .question-meta {
+            font-size: 12px;
+        }
+
+        .question-actions {
+            margin-left: 10px;
+        }
+
+        .category-card {
+            margin-top: 25px;
+            position: static;
+        }
+
+    }

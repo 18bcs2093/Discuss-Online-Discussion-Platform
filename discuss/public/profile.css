@@ -1,0 +1,533 @@
+
+/* =========================================
+   PAGE
+========================================= */
+
+.profile-page {
+
+    min-height: calc(100vh - 70px);
+
+    background: #f7f9fa;
+
+    padding: 45px 20px 60px;
+
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.profile-container {
+
+    width: 100%;
+
+    max-width: 850px;
+
+    margin: 0 auto;
+
+}
+
+
+/* =========================================
+   PROFILE HEADER
+========================================= */
+
+.profile-header {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+}
+
+
+.profile-avatar {
+
+    width: 80px;
+
+    height: 80px;
+
+    margin: 0 auto 15px;
+
+    border-radius: 50%;
+
+    background: #eef6f8;
+
+    color: #1c7194;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 34px;
+
+    font-weight: 600;
+
+}
+
+
+.profile-header h1 {
+
+    margin: 0;
+
+    color: #222;
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+}
+
+
+.profile-header p {
+
+    margin: 7px 0 0;
+
+    color: #888;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   STATISTICS
+========================================= */
+
+.profile-stats {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 15px;
+
+}
+
+
+.stat-box {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+.stat-number {
+
+    color: #1c7194;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+}
+
+
+.stat-label {
+
+    margin-top: 5px;
+
+    color: #777;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   SECTIONS
+========================================= */
+
+.profile-section {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-top: 15px;
+
+    box-shadow: 0 3px 12px rgba(0,0,0,0.03);
+
+}
+
+
+.profile-section h2 {
+
+    margin: 0 0 15px;
+
+    color: #222;
+
+    font-size: 19px;
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+.about-text {
+
+    margin: 0;
+
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================
+   SECTION HEADING
+========================================= */
+
+.section-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+.section-heading h2 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.question-count {
+
+    background: #eef6f8;
+
+    color: #1c7194;
+
+    padding: 4px 10px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================
+   QUESTION LIST
+========================================= */
+
+.question-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+}
+
+
+.profile-question {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 14px 15px;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 7px;
+
+    text-decoration: none !important;
+
+    color: #333 !important;
+
+    background: #ffffff;
+
+    transition: all 0.2s ease;
+
+}
+
+
+.profile-question:hover {
+
+    border-color: #1c7194;
+
+    background: #f6fafb;
+
+    transform: translateX(3px);
+
+}
+
+
+.question-title {
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+}
+
+
+.question-arrow {
+
+    color: #1c7194;
+
+    font-size: 19px;
+
+}
+
+
+/* =========================================
+   EMPTY QUESTIONS
+========================================= */
+
+.empty-questions {
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+}
+
+
+.empty-icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    margin: 0 auto 10px;
+
+    border-radius: 50%;
+
+    background: #eef6f8;
+
+    color: #1c7194;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 600;
+
+}
+
+
+.empty-questions h3 {
+
+    margin: 0;
+
+    color: #333;
+
+    font-size: 16px;
+
+}
+
+
+.empty-questions p {
+
+    margin: 7px 0 18px;
+
+    color: #888;
+
+    font-size: 13px;
+
+}
+
+
+.ask-question-btn {
+
+    display: inline-block;
+
+    background: #1c7194;
+
+    color: #ffffff !important;
+
+    padding: 10px 15px;
+
+    border-radius: 6px;
+
+    text-decoration: none !important;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+.ask-question-btn:hover {
+
+    background: #155b76;
+
+}
+
+
+/* =========================================
+   ACCOUNT INFORMATION
+========================================= */
+
+.account-info {
+
+    border-top: 1px solid #eeeeee;
+
+}
+
+
+.info-row {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 13px 0;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+
+.info-label {
+
+    color: #888;
+
+    font-size: 13px;
+
+}
+
+
+.info-value {
+
+    color: #333;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    text-align: right;
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width: 600px) {
+
+    .profile-page {
+
+        padding: 25px 15px 40px;
+
+    }
+
+
+    .profile-header {
+
+        padding: 28px 20px;
+
+    }
+
+
+    .profile-header h1 {
+
+        font-size: 24px;
+
+    }
+
+
+    .profile-stats {
+
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+
+    }
+
+
+    .stat-box {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        padding: 14px 18px;
+
+    }
+
+
+    .stat-label {
+
+        margin-top: 0;
+
+    }
+
+
+    .profile-section {
+
+        padding: 20px;
+
+    }
+
+
+    .info-row {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+
+    }
+
+
+    .info-value {
+
+        text-align: left;
+
+    }
+
+}

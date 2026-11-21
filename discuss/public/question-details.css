@@ -1,0 +1,479 @@
+
+/* =========================================
+   PAGE
+========================================= */
+
+.question-details-page {
+
+    padding-top: 35px;
+
+    padding-bottom: 60px;
+
+}
+
+
+/* =========================================
+   QUESTION CARD
+========================================= */
+
+.question-detail-card {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    padding: 28px;
+
+    box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+
+}
+
+
+/* =========================================
+   QUESTION HEADER
+========================================= */
+
+.question-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+
+}
+
+
+.question-label {
+
+    background: #eef6f8;
+
+    color: #1c7194;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    padding: 6px 10px;
+
+    border-radius: 5px;
+
+}
+
+
+.question-number {
+
+    color: #999;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   QUESTION TITLE
+========================================= */
+
+.question-title {
+
+    margin: 0 0 18px 0;
+
+    color: #222;
+
+    font-size: 27px;
+
+    font-weight: 600;
+
+    line-height: 1.4;
+
+}
+
+
+/* =========================================
+   QUESTION DESCRIPTION
+========================================= */
+
+.question-description {
+
+    color: #555;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    white-space: pre-line;
+
+}
+
+
+/* =========================================
+   QUESTION FOOTER
+========================================= */
+
+.question-footer {
+
+    margin-top: 25px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #eeeeee;
+
+    color: #999;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   ANSWERS
+========================================= */
+
+.answers-section {
+
+    margin-top: 30px;
+
+}
+
+
+.section-title {
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    color: #333;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* =========================================
+   ANSWER BOX
+========================================= */
+
+.answer-box {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-top: 30px;
+
+}
+
+
+/* =========================================
+   TEXTAREA
+========================================= */
+
+.answer-textarea {
+
+    width: 100%;
+
+    min-height: 150px;
+
+    resize: vertical;
+
+    border: 1px solid #d7dde1;
+
+    border-radius: 7px;
+
+    padding: 14px;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    outline: none;
+
+    transition: 0.2s;
+
+}
+
+
+.answer-textarea:focus {
+
+    border-color: #1c7194;
+
+    box-shadow:
+        0 0 0 3px rgba(28,113,148,0.10);
+
+}
+
+
+.answer-textarea::placeholder {
+
+    color: #999;
+
+}
+
+
+/* =========================================
+   SUBMIT BUTTON
+========================================= */
+
+.answer-submit {
+
+    margin-top: 15px;
+
+}
+
+
+.submit-answer-btn {
+
+    border: none;
+
+    background: #1c7194;
+
+    color: white;
+
+    padding: 11px 18px;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.submit-answer-btn:hover {
+
+    background: #155b76;
+
+}
+
+
+/* =========================================
+   RIGHT SIDEBAR
+========================================= */
+
+.related-card {
+
+    background: #ffffff;
+
+    border: 1px solid #e1e5e8;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    position: sticky;
+
+    top: 85px;
+
+}
+
+
+/* =========================================
+   CATEGORY HEADER
+========================================= */
+
+.related-header {
+
+    background: #f7f9fa;
+
+    padding: 20px;
+
+    border-bottom: 1px solid #e1e5e8;
+
+}
+
+
+.related-label {
+
+    display: block;
+
+    color: #888;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 5px;
+
+}
+
+
+.related-header h2 {
+
+    margin: 0;
+
+    color: #1c7194;
+
+    font-size: 23px;
+
+    font-weight: 600;
+
+}
+
+
+/* =========================================
+   RELATED BODY
+========================================= */
+
+.related-body {
+
+    padding: 18px;
+
+}
+
+
+.related-body h3 {
+
+    margin: 0 0 12px 0;
+
+    font-size: 16px;
+
+    color: #444;
+
+}
+
+
+/* =========================================
+   RELATED QUESTION
+========================================= */
+
+.related-question {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 13px 10px;
+
+    border-bottom: 1px solid #eeeeee;
+
+    text-decoration: none !important;
+
+    color: #333 !important;
+
+    transition: 0.2s;
+
+}
+
+
+.related-question:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.related-question:hover {
+
+    background: #f5fafb;
+
+    color: #1c7194 !important;
+
+    padding-left: 14px;
+
+}
+
+
+.related-question-title {
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+}
+
+
+.related-arrow {
+
+    color: #1c7194;
+
+    font-size: 17px;
+
+    flex-shrink: 0;
+
+}
+
+
+/* =========================================
+   NO RELATED QUESTIONS
+========================================= */
+
+.no-related {
+
+    color: #999;
+
+    font-size: 14px;
+
+    padding: 10px 0;
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width: 768px) {
+
+    .question-details-page {
+
+        padding-top: 20px;
+
+    }
+
+
+    .question-detail-card {
+
+        padding: 20px;
+
+    }
+
+
+    .question-title {
+
+        font-size: 22px;
+
+    }
+
+
+    .question-description {
+
+        font-size: 15px;
+
+    }
+
+
+    .answer-box {
+
+        padding: 20px;
+
+    }
+
+
+    .related-card {
+
+        position: static;
+
+        margin-top: 25px;
+
+    }
+
+}

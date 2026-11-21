@@ -1,0 +1,495 @@
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.custom-navbar {
+
+    background: #ffffff !important;
+
+    border-bottom: 1px solid #e5e8eb;
+
+    padding: 10px 0;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.site-logo {
+
+    height: 45px;
+
+    width: auto;
+
+    object-fit: contain;
+
+}
+
+
+.navbar-brand {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-right: 30px;
+
+}
+
+
+/* =========================================
+   MAIN NAVIGATION
+========================================= */
+
+.main-nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 4px;
+
+    width: 100%;
+
+}
+
+
+.main-nav .nav-item {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.main-nav .nav-link {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #444 !important;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    padding: 9px 12px !important;
+
+    border-radius: 6px;
+
+    transition: all 0.2s ease;
+
+}
+
+
+.main-nav .nav-link:hover {
+
+    color: #1c7194 !important;
+
+    background: #f1f7f9;
+
+}
+
+
+/* =========================================
+   ASK QUESTION
+========================================= */
+
+.ask-btn {
+
+    background: #1c7194 !important;
+
+    color: #ffffff !important;
+
+    padding: 9px 15px !important;
+
+    margin-left: 4px;
+
+    border-radius: 6px !important;
+
+    font-weight: 600 !important;
+
+}
+
+
+.ask-btn:hover {
+
+    background: #155b76 !important;
+
+    color: #ffffff !important;
+
+}
+
+
+/* =========================================
+   SEARCH
+========================================= */
+
+.nav-search-item {
+
+    margin-left: 12px;
+
+}
+
+
+.search-form {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin: 0;
+
+}
+
+
+.search-wrapper {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.search-icon {
+
+    position: absolute;
+
+    left: 12px;
+
+    font-size: 13px;
+
+    opacity: 0.6;
+
+    pointer-events: none;
+
+}
+
+
+.search-input {
+
+    width: 200px;
+
+    height: 40px;
+
+    border: 1px solid #d9dee2;
+
+    border-radius: 7px;
+
+    padding: 8px 12px 8px 35px;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition: all 0.2s ease;
+
+}
+
+
+.search-input:focus {
+
+    border-color: #1c7194;
+
+    box-shadow: 0 0 0 3px rgba(28,113,148,0.10);
+
+}
+
+
+.search-input::placeholder {
+
+    color: #9aa1a6;
+
+}
+
+
+/* =========================================
+   SEARCH BUTTON
+========================================= */
+
+.search-btn {
+
+    height: 40px;
+
+    border: none;
+
+    background: #1c7194;
+
+    color: #ffffff;
+
+    padding: 0 15px;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+.search-btn:hover {
+
+    background: #155b76;
+
+}
+
+
+/* =========================================
+   LOGIN
+========================================= */
+
+.login-item {
+
+    margin-left: 18px !important;
+
+}
+
+
+.login-link {
+
+    border: 1px solid #d7dde1;
+
+    margin-left: 0 !important;
+
+}
+
+
+.login-link:hover {
+
+    border-color: #1c7194;
+
+}
+
+
+/* =========================================
+   SIGN UP
+========================================= */
+
+.signup-btn {
+
+    background: #1c7194 !important;
+
+    color: #ffffff !important;
+
+    padding: 9px 15px !important;
+
+    border-radius: 6px !important;
+
+    font-weight: 600 !important;
+
+}
+
+
+.signup-btn:hover {
+
+    background: #155b76 !important;
+
+    color: #ffffff !important;
+
+}
+
+
+/* =========================================
+   LOGOUT
+========================================= */
+
+.logout-item {
+
+    margin-left: auto !important;
+
+}
+
+
+.logout-link {
+
+    color: #555 !important;
+
+    margin-left: 10px !important;
+
+    white-space: nowrap;
+
+}
+
+
+.logout-text {
+
+    color: #999;
+
+    font-size: 12px;
+
+    margin-left: 4px;
+
+}
+
+
+.logout-link:hover .logout-text {
+
+    color: #d9534f;
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media(max-width: 991px) {
+
+    .main-nav {
+
+        width: 100%;
+
+        margin-top: 15px;
+
+        align-items: stretch;
+
+        gap: 3px;
+
+    }
+
+
+    .main-nav .nav-item {
+
+        width: 100%;
+
+    }
+
+
+    .main-nav .nav-link {
+
+        width: 100%;
+
+        justify-content: flex-start;
+
+        margin-bottom: 4px;
+
+    }
+
+
+    .ask-btn {
+
+        justify-content: flex-start !important;
+
+    }
+
+
+    /* SEARCH */
+
+    .nav-search-item {
+
+        margin-left: 0;
+
+        margin-top: 8px;
+
+    }
+
+
+    .search-form {
+
+        width: 100%;
+
+    }
+
+
+    .search-wrapper {
+
+        flex: 1;
+
+    }
+
+
+    .search-input {
+
+        width: 100%;
+
+    }
+
+
+    /* LOGIN */
+
+    .login-item {
+
+        margin-left: 0 !important;
+
+        margin-top: 5px;
+
+    }
+
+
+    .login-link {
+
+        margin-left: 0 !important;
+
+    }
+
+
+    /* LOGOUT */
+
+    .logout-item {
+
+        margin-left: 0 !important;
+
+    }
+
+
+    .logout-link {
+
+        margin-left: 0 !important;
+
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media(max-width: 576px) {
+
+    .site-logo {
+
+        height: 38px;
+
+    }
+
+
+    .search-form {
+
+        flex-direction: row;
+
+    }
+
+
+    .search-btn {
+
+        padding: 0 12px;
+
+    }
+
+}
